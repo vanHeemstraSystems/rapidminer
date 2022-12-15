@@ -92,4 +92,28 @@ Decision trees are a popular statistical modeling technique that finds hidden pa
 
 Good, we now have the operator in the process but we still need to connect the two operations and define what we want to see as output before we can run it.
 
+## 4/5 - Connect & execute.
+
+The **Decision Tree** operator will build a Decision Tree for us based on our Titanic Training data. We still need to connect these operators together to build a Process, though:
+
+### Activity
+
+1. ```Connect``` the output port ("out") of **Retrieve Titanic Training** with the input port ("tra" for "training") of the **Decision Tree**. You can click on the ports, or you can drag on them!
+2. ```Connect```  the first output ("mod") of the **Decision Tree** with the result port ("res") on the right side of the of the **Process** panel.
+3. ``Press`` the > **Run** button in the toolbar to execute the process.
+
+### Explanation
+
+Great job! Your process should now be complete and deliver a decision tree model, which explains to you what most of the survivors amd most of the victims had in common. Read more explanation on [operator ports]() and [decision trees]().
+
+## 5/5 - Congratulations!
+
+Great - you just have built your first machine learning model. This was not hard, was it? You now know how to load data, add a machine learning model to the process, and execute both steps.
+
+### Explanation
+
+From our resulting decision-tree, we can clearly see that survival was not coincidental at all. In fact, it tells us that as a female passenger, with a small fanmily, you were really lucky - at least if you were holding an expensive ticket!
+
+These tutorials have only shown you the tip of the iceberg.
+
 More ...
