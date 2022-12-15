@@ -22,4 +22,8 @@ Let's start by retrieving some data about the Titanic passengers.
 
 ### Explanation
 
+Good job! You have just added your first operator to RapidMiner Studio, namely the **Retrieve** Operator. Operators perform actions: in this case, it retrieves data from the **Repository**. Now let's see what you can do with it!
+
+## 3/5
+
 More ...
