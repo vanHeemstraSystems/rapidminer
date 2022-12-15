@@ -47,7 +47,19 @@ After we have connected the elements of our process, we can hit the 'Run' button
 
 Nice! You have run your first process in RapidMiner Studio. When you click "Run", the operators in your process will perform their actions. RapidMiner executes the process and shows the data connected to the result port. In the center of the **Results** view, you can see our raw data about the Titanic passengers such as their age. On the **Statistics** tab we get a statistics summary, which provides useful information; for example, 349 passengers survived the Titanic accident. If you get different results, please make sure you dragged in the correct dataset: **Titanic Training**.
 
-## 5/5 - ...
+## 5/5 - Congratulations - Halfway there!
 
+Well done - you just mastered your first tutorial! To quickly review:
+
+- Operators perform individual actions.
+- You can connect operators to gether to build a Process.
+- To see the output of an operator, connect it to the 'res' port.
+- Running the process performs all operators and automatically shows the results.
+
+### Explanation
+
+To become a true master move on to the next tutorial below.
+
+# Next Tutorial
 
 More ...
