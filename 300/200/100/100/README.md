@@ -124,4 +124,7 @@ Getting your data into RapidMiner is often the first task you will need to compl
 
 ### Explanation
 
+We will now go through the most important steps of building analytical processes starting with data import. In later tutorials, we will cover data preparation and modeling. We also will discuss some of the steps you saw so far in more detail.
+
+
 More ...
