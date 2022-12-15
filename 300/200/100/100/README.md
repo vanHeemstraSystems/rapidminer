@@ -66,4 +66,16 @@ To become a true master move on to the next tutorial below.
 
 In the last tutorial, we loaded a dataset and ran a process. We found out that 349 passengers survived the Titanic accident. Let's build a Process to see if those survivors have something in common or not.
 
+## 2/5 - Retrieve the Titanic Training data.
+
+Load the Titanic Training data.
+
+### Activity
+
+1. ```Drag``` the **Titanic Training** data from the **Samples** repository into the **Process** panel.
+
+### Explanation
+
+You have defined the first operation of your process. Now we will learn how easy it is to build a machine learning model on this data.
+
 More ...
