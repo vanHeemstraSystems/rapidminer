@@ -24,4 +24,15 @@ Good job! You have just added your first operator to RapidMiner Studio, namely t
 
 ## 3/5 - Building your first process.
 
+As a RapidMiner analyst, you create processes by adding and connecting operators. Operators are connected together via their Ports:
+
+### Activity
+
+1. Connect the output port ("out") of **Retrieve Titanic Training** with the result port ("res") on the right side of the **Process** panel.
+2. Make the connection either by ```dragging a line``` between the ports, or by first ```clicking``` on one port and then the other port.
+
+### Explanation
+
+
+
 More ...
