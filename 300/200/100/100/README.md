@@ -130,7 +130,7 @@ We will now go through the most important steps of building analytical processes
 
 ### Activity
 
-1. ```Download``` this [Excel file]() to your computer.
+1. ```Download``` this [Excel file](https://github.com/vanHeemstraSystems/rapidminer/blob/main/Titanic%2BData.xls) to your computer.
 
 ### Explanation
 More ...
