@@ -118,7 +118,7 @@ These tutorials have only shown you the tip of the iceberg of what you can do wi
 
 # Next Tutorial
 
-## 1/6 Importing Data into RapidMiner
+## 1/6 Importing Data into RapidMiner.
 
 Getting your data into RapidMiner is often the first task you will need to complete your analysis. In this tutorial, you will learn how to import files into the central storage of RapidMiner, called the Repository. We will continue to use use data describing the Titanic accident, but this time it will be imported from an Excel file. 
 
@@ -126,5 +126,11 @@ Getting your data into RapidMiner is often the first task you will need to compl
 
 We will now go through the most important steps of building analytical processes starting with data import. In later tutorials, we will cover data preparation and modeling. We also will discuss some of the steps you saw so far in more detail.
 
+## 2/6 - Download your data.
 
+### Activity
+
+1. ```Download``` this [Excel file]() to your computer.
+
+### Explanation
 More ...
