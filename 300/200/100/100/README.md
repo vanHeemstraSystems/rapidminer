@@ -136,4 +136,6 @@ We will now go through the most important steps of building analytical processes
 
 ### Explanation
 
+The **Repository** panel, in the upper left corner by default, is the place to store all your data, processes, and results. You should always import data into the repository, especially when it comes from files like XLS or CSV. This will simplify the design of analytical processes a lot since RapidMiner's repository stores describing meta data together with the data.
+
 More ...
