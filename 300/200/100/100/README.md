@@ -62,4 +62,8 @@ To become a true master move on to the next tutorial below.
 
 # Next Tutorial
 
+## 1/5 - Let's do some data science.
+
+In the last tutorial, we loaded a dataset and ran a process. We found out that 349 passengers survived the Titanic accident. Let's build a Process to see if those survivors have something in common or not.
+
 More ...
