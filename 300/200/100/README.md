@@ -6,6 +6,8 @@ Step-by-step tutorials are activated the first time you open RapidMiner Studio. 
 
 Later, you can reopen the tutorials by selecting ```File``` > ```New Process```, and choosing the ```Learn``` tab.
 
+![Learn](https://github.com/vanHeemstraSystems/rapidminer/issues/2#issue-1498364436)
+
 The ```Learn``` tab links to the following additional material:
 
 - [Go to documentation](https://docs.rapidminer.com/)
