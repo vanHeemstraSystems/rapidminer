@@ -131,6 +131,9 @@ We will now go through the most important steps of building analytical processes
 ### Activity
 
 1. ```Download``` this [Excel file](https://github.com/vanHeemstraSystems/rapidminer/blob/main/Titanic%2BData.xls) to your computer.
+2. To import the downloaded data into RapidMiner, ```click``` + **Import Data** in the **Repository** panel and follow the steps in the wizard.
+3. When you complete the import, ```store``` the data as **Titanic** in your **Local Repository**.
 
 ### Explanation
+
 More ...
