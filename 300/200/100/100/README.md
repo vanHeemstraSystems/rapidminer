@@ -114,6 +114,14 @@ Great - you just have built your first machine learning model. This was not hard
 
 From our resulting decision-tree, we can clearly see that survival was not coincidental at all. In fact, it tells us that as a female passenger, with a small fanmily, you were really lucky - at least if you were holding an expensive ticket!
 
-These tutorials have only shown you the tip of the iceberg.
+These tutorials have only shown you the tip of the iceberg of what you can do with RapidMiner. To keep learning and become a RapidMiner Master, start the next tutorial. Welcome again to RapidMiner! 
+
+# Next Tutorial
+
+## 1/6 Importing Data into RapidMiner
+
+Getting your data into RapidMiner is often the first task you will need to complete your analysis. In this tutorial, you will learn how to import files into the central storage of RapidMiner, called the Repository. We will continue to use use data describing the Titanic accident, but this time it will be imported from an Excel file. 
+
+### Explanation
 
 More ...
