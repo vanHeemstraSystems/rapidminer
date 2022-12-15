@@ -33,6 +33,8 @@ As a RapidMiner analyst, you create processes by adding and connecting operators
 
 ### Explanation
 
+Excellent! You have built your first process in RapidMiner Studio. We can now look at the output of the Retrieve operator. Whenever you want to see the output of an operator, make sure it is connected to the 'res' port.
 
+## 4/5 - ...
 
 More ...
