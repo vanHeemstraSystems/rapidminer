@@ -45,6 +45,9 @@ After we have connected the elements of our process, we can hit the 'Run' button
 
 ### Explanation
 
-Nice! 
+Nice! You have run your first process in RapidMiner Studio. When you click "Run", the operators in your process will perform their actions. RapidMiner executes the process and shows the data connected to the result port. In the center of the **Results** view, you can see our raw data about the Titanic passengers such as their age. On the **Statistics** tab we get a statistics summary, which provides useful information; for example, 349 passengers survived the Titanic accident. If you get different results, please make sure you dragged in the correct dataset: **Titanic Training**.
+
+## 5/5 - ...
+
 
 More ...
