@@ -2,7 +2,7 @@
 
 Step-by-step tutorials are activated the first time you open RapidMiner Studio. It's a good idea to read the introduction and take the guided tour.
 
-![welcome-to-rapidminer-titanic](https://user-images.githubusercontent.com/1499433/207860320-d3f5a831-e66e-4bcb-9df3-9b87ba6c0dbe.png)
+<img width="669" alt="welcome-to-rapidminer-titanic" src="https://user-images.githubusercontent.com/1499433/207861386-f643d200-bbeb-421e-a2aa-79c9754dea71.png">
 
 Later, you can reopen the tutorials by selecting ```File``` > ```New Process```, and choosing the ```Learn``` tab.
 
