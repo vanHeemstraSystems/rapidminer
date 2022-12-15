@@ -78,4 +78,18 @@ Load the Titanic Training data.
 
 You have defined the first operation of your process. Now we will learn how easy it is to build a machine learning model on this data.
 
+## 3/5 - Build a decision tree.
+
+Decision trees are a popular statistical modeling technique that finds hidden patterns in the data. Let's build one!
+
+### Activity
+
+1. ```Find``` the **Operators** panel on te left.
+2. ```Open``` the folder **Modeling**, **Predictive**, and finally **Trees**.
+3. ```Drag``` in the **Decision Tree** operator and drop it after **Retrieve Titanic Training**.
+
+### Explanation
+
+Good, we now have the operator in the process but we still need to connect the two operations and define what we want to see as output before we can run it.
+
 More ...
