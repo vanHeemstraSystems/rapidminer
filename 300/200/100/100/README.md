@@ -188,7 +188,22 @@ You just have imported your first data set! From now on, each tutorial includes 
 
 In the last tutorial, we learned how to import data into RapidMiner repository, which is the central storage for all your data, models, and processes. In this tutorial, we will apply a filter to the Titanic data to only look at female passengers. Then, we can easily sort the data to find the highest ticket fares paid by women. You can then apply your own skills to answer the same question for men. Do you expect a difference for the passenger fare?
 
-## 2/5 - ... .
+## 2/5 - Get data into the workflow.
+
+### Activity
+
+1. ```Drag``` the **Titanic** data from the **Samples** repository into the **Process**.
+
+### Explanation
+
+In RapidMiner, rows are called *examples* and data tables are called *example sets*. You'll find these terms throughout RapidMiner, so it is worth learning them right away.
+
+### Explanation
+
+There are many ways to find the highest fare paid by women. In this tutorial, you will remove men from the table or "filter examples out of the example set." 
+
+
+
 
 
 More ...
