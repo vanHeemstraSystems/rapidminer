@@ -149,6 +149,18 @@ The **Repository** panel, in the upper left corner by default, is the place to s
 
 When you drag data from the repository into the process, it transforms into a data-loading operator (in this case, **Retrieve Titanic**). Data is not actually loaded (or delivered at the round output ports of each operator) until you run the process.
 
+## 4/6 - Create a connection to view results.
+
+### Activity
+
+1. ```Connect``` the output port of **Retrieve Titanic** with the result port ("res") on the right side of the **Process** panel.
+2. Make the connection either by ```dragging a line``` between the ports, or by first ```clicking``` on one port and then on the other port.
+
+### Explanation
+
+Only data which is delivered to one of the result ports on the right can be seen after the execution of the process. If your process does not have at least one connection to a result port, you won't see any results when you execute it!
+
+
 
 
 
