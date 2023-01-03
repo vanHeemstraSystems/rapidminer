@@ -243,6 +243,12 @@ Well done! You can now see the highest fare paid for a woman on the Titanic: it'
 
 - Q: Can you change the process to see the highest fare paid by a man? Is it different than the highest fare paid by a woman? A: No, both a man and a woman paid the highest fare of 512.329.
 
+# Next Tutorial
+
+## 1/6 - Say hello to two new data sets...
+
+Let's take a break from the Titanic and learn about some other frequently used tasks in data preparation, specifically merging and grouping data together. We will deal with two data sets: one containing the products sold by an organization and one with the transactions (information about which customer purchased which product). After combining these sets, we can answer questions about the most frequently purchased product or who is your most loyal customer. Let's get started...
+
 
 
 
