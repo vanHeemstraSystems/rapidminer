@@ -402,10 +402,18 @@ Each attribute has a *type* which defines the possible values for the column (fo
 
 The *role* of an attribute describes how the column is used by machine learning operators. Attributes without any role (also called "regular" attributes) are used as input for training while *id* attributes are usually ignored by modeling algorithms because they are only used as unique identifiers of observations of data.
 
+## 3/5 - Define attribute types and roles.
 
+### Activity
 
+1. ```Add``` a **Discretize by Binning** operator and connect it. In its **Parameters**:
+2. ```Set``` the **attribute filter type** to *single* (i.e. you only work on one of the attributes).
+3. ```Set``` **attribute** to *Age*.
+4. ```Set``` **number of bins** to *3*.
 
+### Explanation
 
+"Binning" is a common technique to transform the type from *numerical* to *polynominal* (a nomal with more than 2 values). Here, we create three "bins" covering the complete range of values. The operator then replaces the original numerical value with the name of the bin the value belongs to. This technique is often useful to categorise data into simpler to assess groups. Like 'everything bigger x = interesting and everything smaller x = not interesting'. Such groups can then be used in calculation, charts or even serve as a label for model training.
 
 
 
