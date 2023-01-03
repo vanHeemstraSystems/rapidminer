@@ -229,7 +229,7 @@ Whenever you add an operator to your process, you should immediately connect it.
 4. ```Set``` **attribute name** to ```Passenger Fare```.
 5. ```Change``` the **sorting order** to ```descending```.
 6. ```Connect``` the **Sort** output port to the result port on the right of the **Process** panel.
-7. > **Run** the process and inspect the result.
+7. ```>``` **Run** the process and inspect the result.
 
 ### Explanation
 
