@@ -316,7 +316,7 @@ Great,you just made your first steps for data blending with RapidMiner! Before y
 
 # Next Tutorial: Creating and Removing Columns
 
-## 1/5 - Working with Attributes
+## 1/5 - Working with Attributes.
 
 You are almost ready to build your first predictive model in RapidMiner! But first, we need to deal with two very important operations for transforming your data sets into a format more suitable for training your model. The beginning of this process is the same as the previous one; this is a great opportunity for you to implement what you have learned so far. We will then create a new data column i.e. generate an attribute and remove some unused/unnecessary columns from the data.
 
@@ -332,6 +332,24 @@ You are almost ready to build your first predictive model in RapidMiner! But fir
 ### Explanation
 
 The resulting example set contains all transactions with product details for each transaction.
+
+## 3/5 - Define a new attribute
+
+### Explanation
+
+The term *attribute* is RapidMiner lingo for "column". In machine learning, each row of a data set is an *example* for a specific situation and the *attributes* (columns) are the properties that describe the situation.
+
+### Activity
+
+1. ```Add``` the **Generate Attributes** operator.
+2. ```Connect``` the operator with **Join**.
+3. ```Click``` **Edit List** in the **Parameters** for **Generate Attributes** to define the new attribute (column). A dialog will pop up.
+4. In the left column of the dialog, enter *Total* for the **attribute name**.
+5. In the right column, type *Amount\*Price* for the **function expression**.
+
+### Explanation
+
+You can also click on the calculator to create the expression using the **Expression editor**. You should try this now - this is much easier than typing complex expressions into the text field!
 
 
 
