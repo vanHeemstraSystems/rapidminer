@@ -243,11 +243,42 @@ Well done! You can now see the highest fare paid for a woman on the Titanic: it'
 
 - Q: Can you change the process to see the highest fare paid by a man? Is it different than the highest fare paid by a woman? A: No, both a man and a woman paid the highest fare of 512.329.
 
-# Next Tutorial
+# Next Tutorial: Merging and Grouping
 
 ## 1/6 - Say hello to two new data sets...
 
 Let's take a break from the Titanic and learn about some other frequently used tasks in data preparation, specifically merging and grouping data together. We will deal with two data sets: one containing the products sold by an organization and one with the transactions (information about which customer purchased which product). After combining these sets, we can answer questions about the most frequently purchased product or who is your most loyal customer. Let's get started...
+
+## 2/6 - Get data into the workflow.
+
+### Activity
+
+1.```Expand``` the **Samples** repository in the **Repository** panel. Next, expand the **data** folder within the samples repository to retrieve the **Products** and **Transactions** data.
+2. ```Drag``` the **Products** data and the **Transactions** data from the **Samples > data** folder into the **Process** panel.
+
+### Explanation
+
+Remember, RapidMiner transforms the data into **Retrieve Products** and **Retrieve Transactions** operators when it enters the process, but doesn't load the data until you execute the process.
+
+## 3/6 - Join the data.
+
+### Activity
+
+1.```Search``` for the **Join** operator in the search box at the top of the **Operator** panel.
+2. ```Connect``` the output port of **Retrieve Products** to an input port of **Join** (it doesn't matter which one).
+3. ```Connect``` the output port of **Retrieve Transactions** to the other **Join** input port.
+4. ```Click``` on **Join** to select it. In the **Parameters** panel find the **key attributes** field.
+5. ```Click``` **Edit List**. Select *Product ID* for the left and right key attributes. Then click **Apply**.
+
+### Explanation
+
+Remember to *ALWAYS* connect the operators before you start changing their parameters. You can only select the *Product ID* from the list after the connection was made since otherwise the operator would not know what data is available.
+
+### Explanation
+
+The result of the **Join** will be a table showing each transaction and its product details. The two ID columns you defined as key attributes for the join define the mapping between the rows of the two original tables.
+
+
 
 
 
