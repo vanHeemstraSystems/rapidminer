@@ -219,6 +219,23 @@ Only examples (rows) that meet the defined filter criteria - in this case women 
 
 Whenever you add an operator to your process, you should immediately connect it. Remember that data flows between operators, so an operator's connection can influence its parameters. For example: How could the **Filter** operator "know" about hte column ```Sex```, if it is not connected to the data source?
 
+## 4/5 - Sort to show the highest fares first.
+
+### Activity
+
+1. ```Search``` for and ```drag``` the **Sort** operator into the **Process**.
+2. ```Connect``` the output of **Filter** with the input of **Sort**.
+3. ```Click``` on **Sort** to select it. Make the following changes to the **sort by** parameters in the **Parameters** panel:
+4. ```Set``` **attribute name** to ```Passenger Fare```.
+5. ```Change``` the **sorting order** to ```descending```.
+6. ```Connect``` the **Sort** output port to the result port on the right of the **Process** panel.
+7. > **Run** the process and inspect the result.
+
+### Explanation
+
+Most operators have settings which define how the operators are working. You can find those on the right side of the **Parameters** panel, after you have selected an operator with a click.
+
+
 
 
 
