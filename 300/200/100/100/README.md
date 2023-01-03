@@ -184,9 +184,11 @@ You just have imported your first data set! From now on, each tutorial includes 
 
 # Next Tutorial
 
+## 1/5 - Find out the highest fare paid by women.
 
+In the last tutorial, we learned how to import data into RapidMiner repository, which is the central storage for all your data, models, and processes. In this tutorial, we will apply a filter to the Titanic data to only look at female passengers. Then, we can easily sort the data to find the highest ticket fares paid by women. You can then apply your own skills to answer the same question for men. Do you expect a difference for the passenger fare?
 
-
+## 2/5 - ... .
 
 
 More ...
