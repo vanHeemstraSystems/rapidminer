@@ -170,6 +170,16 @@ Only data which is delivered to one of the result ports on the right can be seen
 
 Onze run, you automatically switch to the **Results** view where your results are displayed. Remember? Those are operator outputs you connected with one of the result ports on the right side of the **Process** panel. At any time, click the **Design** tab to return to the **Process** panel.
 
+## 6/6 - Congratulations!
+
+You just have imported your first data set! From now on, each tutorial includes some additional questions - to further improve your skills - take a look at the challenges below!
+
+### Challenge
+
+
+
+
+
 
 
 
