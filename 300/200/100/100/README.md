@@ -320,6 +320,23 @@ Great,you just made your first steps for data blending with RapidMiner! Before y
 
 You are almost ready to build your first predictive model in RapidMiner! But first, we need to deal with two very important operations for transforming your data sets into a format more suitable for training your model. The beginning of this process is the same as the previous one; this is a great opportunity for you to implement what you have learned so far. We will then create a new data column i.e. generate an attribute and remove some unused/unnecessary columns from the data.
 
+## 2/5 - Add product details to transactions.
+
+### Activity
+
+1. ```Drag``` the **Transactions** and **Products** datasets into the **Process*.
+2. ```Add``` a **Join** operator.
+3. ```Connect``` all operators.
+4. ``Specify``` the columns to use in the **Parameters** for **Join**. That is, click **Edit List**, and use *Product ID* for the left and right key attributes.
+
+### Explanation
+
+The resulting example set contains all transactions with product details for each transaction.
+
+
+
+
+
 
 
 
