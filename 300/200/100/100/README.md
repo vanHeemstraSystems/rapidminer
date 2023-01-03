@@ -314,7 +314,11 @@ Great,you just made your first steps for data blending with RapidMiner! Before y
 - Q: Can you find out in the **Statistics** tab what the average number of transactions was? A: 13.079 Q: Can you also see the visual distribution of values in this tab? A: No.
 - Q: The *count* function counts the number of transactions for each product, but each product can also be purchased multiple times in each transaction. Can you change the parameters of **Aggregate** so that the total sum for each product is calculated? A: Yes, aggregate Amount as Sum, group by Product Name. Q: Which products have been sold more than 65 times? A: Qualex (66 times) and Turbolax (69 times).
 
+# Next Tutorial: Creating and Removing Columns
 
+## 1/5 - Working with Attributes
+
+You are almost ready to build your first predictive model in RapidMiner! But first, we need to deal with two very important operations for transforming your data sets into a format more suitable for training your model. The beginning of this process is the same as the previous one; this is a great opportunity for you to implement what you have learned so far. We will then create a new data column i.e. generate an attribute and remove some unused/unnecessary columns from the data.
 
 
 
