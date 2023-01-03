@@ -362,12 +362,27 @@ The resulting data set contains, for each transaction, the total sum paid (i.e. 
 1. ```Add``` the **Select Attributes** operator to the process and connect it. Make the following changes in **Parameters**:
 2. Set **attributes filter type** to *subset*. In general, this means that the operator will be applied only to those attributes (columns) you specify. Here this allows you to choose a subset of columns to keep in the data - all other columns will be removed.
 3. ```Click``` **Select Attributes**.
-4. In the resulting dialog, select the *Customer ID*, *Product Name*, and *Total* attributes.
+4. In the resulting dialog, select the *Customer ID*, *Product Name*, and *Total* attributes. If the list is empty, you forgot to connect the operator first ...
 5. Connect the out port of the **Select Attributes** operator to the result port on the right side of the **Process** panel and > **Run** the process. 
 
 ### Explanation
 
 Don't forget to connect the output of the last operator to the result port! Your result shows, for each customer, the total spent on each product they purchased. Attributes (columns) not identified in **Select Attributes** are removed.
+
+## 6/6 - Congratulations!
+
+You are becoming a master of data blending! You have seen now some of the most important operators for data preprocessing: Join, Aggregate, Filter, Sort, Generate Attributes, and Select Attributes. RapidMiner has a lot more operators, but thos six will be used most frequently.
+
+### Challenge
+
+- Q: From the **Results** view, can you find out the customer ID of the customer who paid most for a single product? How much did they pay? Remember that you can sort data by clicking on a column header. A: Customer ID 130 bought for 2495.650 of Hypnocil. 
+- Q: Can you answer the same question by using an operator instead? A: ?
+- Q: How would you describe the form of the distribution chart for the new Total attribute? You can find this in the **Statistics** tab or try to create a chart for this attribute. A: A histogram.
+- Q: Can you change the process so that it also calculates a new attribute *Squared* which is the squared amount for each transaction? A: Yes, Squared  = Amount^2. What else do you need to change so that you see this column after process execution? A: Add the attribute *Squared* to **Select Attributes**. 
+
+
+
+
 
 
 
