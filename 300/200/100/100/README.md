@@ -333,7 +333,7 @@ You are almost ready to build your first predictive model in RapidMiner! But fir
 
 The resulting example set contains all transactions with product details for each transaction.
 
-## 3/5 - Define a new attribute
+## 3/5 - Define a new attribute.
 
 ### Explanation
 
@@ -351,11 +351,23 @@ The term *attribute* is RapidMiner lingo for "column". In machine learning, each
 
 You can also click on the calculator to create the expression using the **Expression editor**. You should try this now - this is much easier than typing complex expressions into the text field!
 
+## 4/5 - Remove unnecessary attributes.
 
+### Explanation
 
+The resulting data set contains, for each transaction, the total sum paid (i.e. number of items sold multiplied by the price for each item).
 
+### Activity
 
+1. ```Add``` the **Select Attributes** operator to the process and connect it. Make the following changes in **Parameters**:
+2. Set **attributes filter type** to *subset*. In general, this means that the operator will be applied only to those attributes (columns) you specify. Here this allows you to choose a subset of columns to keep in the data - all other columns will be removed.
+3. ```Click``` **Select Attributes**.
+4. In the resulting dialog, select the *Customer ID*, *Product Name*, and *Total* attributes.
+5. Connect the out port of the **Select Attributes** operator to the result port on the right side of the **Process** panel and > **Run** the process. 
 
+### Explanation
+
+Don't forget to connect the output of the last operator to the result port! Your result shows, for each customer, the total spent on each product they purchased. Attributes (columns) not identified in **Select Attributes** are removed.
 
 
 
