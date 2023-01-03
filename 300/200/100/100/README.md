@@ -176,9 +176,13 @@ You just have imported your first data set! From now on, each tutorial includes 
 
 ### Challenge
 
+- Q: You can see the data in the results. Can you find out how missing values are shown? A: Missing values are shown with a question mark (?).
 
+- Q: The **Statistics** tab shows summaries of the data in the columns. How many people did travel in First Class? A: Passenger Class, First (323). And how many people did *not* survive the Titanic accident? A: Survived, No (809).
 
+- Q: Play around with some of the **Charts** if you like. Can you see some interesting patterns? A: -
 
+# Next Tutorial
 
 
 
