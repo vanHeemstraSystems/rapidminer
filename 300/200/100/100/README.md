@@ -304,6 +304,19 @@ The result of the **Join** will be a table showing each transaction and its prod
 
 In the **Results** view, click on column headers to sort the column data to ascending or descending order.
 
+## 6/6 - Congratulations!
+
+Great,you just made your first steps for data blending with RapidMiner! Before you move on to the next tutorial, try to answer the questions below:
+
+### Challenge
+
+- Q: Which product has been most often sold? A: Athsat (sold 22 times). Q: And which product was sold only 5 times? A: Bacta
+- Q: Can you find out in the **Statistics** tab what the average number of transactions was? A: 13.079 Q: Can you also see the visual distribution of values in this tab? A: No.
+- Q: The *count* function counts the number of transactions for each product, but each product can also be purchased multiple times in each transaction. Can you change the parameters of **Aggregate** so that the total sum for each product is calculated? A: Yes, aggregate Amount as Sum, group by Product Name. Q: Which products have been sold more than 65 times? A: Qualex (66 times) and Turbolax (69 times).
+
+
+
+
 
 
 
