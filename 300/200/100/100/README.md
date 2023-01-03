@@ -380,6 +380,29 @@ You are becoming a master of data blending! You have seen now some of the most i
 - Q: How would you describe the form of the distribution chart for the new Total attribute? You can find this in the **Statistics** tab or try to create a chart for this attribute. A: A histogram.
 - Q: Can you change the process so that it also calculates a new attribute *Squared* which is the squared amount for each transaction? A: Yes, Squared  = Amount^2. What else do you need to change so that you see this column after process execution? A: Add the attribute *Squared* to **Select Attributes**. 
 
+# Next Tutorial: Changing Types and Roles
+
+## 1/5 - What to predict?
+
+To learn about building predictive models, let's go back to the Titanic data from earlier. This data is somewhat simpler and does not need a lot of preparation, but we still need to specify which column we want to predict!
+
+## 2/5 - Add product details to transactions.
+
+### Activity
+
+1. ```Drag``` the **Titanic** data into the process.
+2. Now, ```hover``` the mouse over the output port of the **Retrieve** operator and wait for a small window to pop up and display some meta data about the Titanic dataset. Some of the information you know from the **Statistcs** tab.
+3. ```Note``` the two columns **Role** and **Type** in the table at the bottom.
+
+### Explanation
+
+Each attribute has a *type* which defines the possible values for the column (for example, if values can be nominal or numerical).
+
+### Explanation
+
+The *role* of an attribute describes how the column is used by machine learning operators. Attributes without any role (also called "regular" attributes) are used as input for training while *id* attributes are usually ignored by modeling algorithms because they are only used as unique identifiers of observations of data.
+
+
 
 
 
