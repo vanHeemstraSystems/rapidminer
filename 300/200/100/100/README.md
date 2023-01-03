@@ -100,7 +100,7 @@ The **Decision Tree** operator will build a Decision Tree for us based on our Ti
 
 1. ```Connect``` the output port ("out") of **Retrieve Titanic Training** with the input port ("tra" for "training") of the **Decision Tree**. You can click on the ports, or you can drag on them!
 2. ```Connect```  the first output ("mod") of the **Decision Tree** with the result port ("res") on the right side of the of the **Process** panel.
-3. ``Press`` the > **Run** button in the toolbar to execute the process.
+3. ```Press``` the > **Run** button in the toolbar to execute the process.
 
 ### Explanation
 
@@ -164,7 +164,7 @@ Only data which is delivered to one of the result ports on the right can be seen
 
 ### Activity
 
-1. ```Press`` > **Run** (top left) to execute the process.
+1. ```Press``` > **Run** (top left) to execute the process.
 
 ### Explanation
 
@@ -180,7 +180,7 @@ You just have imported your first data set! From now on, each tutorial includes 
 
 - Q: The **Statistics** tab shows summaries of the data in the columns. How many people did travel in First Class? A: Passenger Class, First (323). And how many people did *not* survive the Titanic accident? A: Survived, No (809).
 
-- Q: Play around with some of the **Charts** if you like. Can you see some interesting patterns? A: -
+- Q: Play around with some of the **Charts** if you like. Can you see some interesting patterns? A: Passengers with siblings or spouses on board did not survive as much as passengers without siblings or spouses. Perhaps they were more concerned to look after their loved ones and failed to survive for that reason.
 
 # Next Tutorial
 
