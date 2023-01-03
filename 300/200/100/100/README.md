@@ -202,6 +202,23 @@ In RapidMiner, rows are called *examples* and data tables are called *example se
 
 There are many ways to find the highest fare paid by women. In this tutorial, you will remove men from the table or "filter examples out of the example set." 
 
+## 3/5 - Set up filtering.
+
+### Explanation
+
+Only examples (rows) that meet the defined filter criteria - in this case women - stay in the example set. All other examples are removed.
+
+### Activity
+
+1. ```Search``` for the **Filter Examples** operator using the search box at the top of the **Operator** panel. ```Drag``` **Filter Examples** into the **Process** panel.
+2. ```Connect``` the output port of **Retrieve Titanic** with the input port of **FilterExamples**.
+3. ```Click``` **Filter Examples** to select it, then ```click``` **Add Filters** in the **Parameters** panel to define a filter.
+4. Select ```Sex``` on the left, ```equals``` in the middle, and type ```Female``` in the box on the right. Instead of typing, you can click on the magic wand and select ```Female``` from the list.
+
+### Explanation
+
+Whenever you add an operator to your process, you should immediately connect it. Remember that data flows between operators, so an operator's connection can influence its parameters. For example: How could the **Filter** operator "know" about hte column ```Sex```, if it is not connected to the data source?
+
 
 
 
