@@ -278,7 +278,31 @@ Remember to *ALWAYS* connect the operators before you start changing their param
 
 The result of the **Join** will be a table showing each transaction and its product details. The two ID columns you defined as key attributes for the join define the mapping between the rows of the two original tables.
 
+## 4/6 - Group the data to count product purchases.
 
+### Activity
+
+1. ```Drag``` the **Aggregate** operator into the process. ```Connect``` it to the output of **Join**.
+2. ```Click``` **Aggregate** to select. Make the following chnages in the **Parameters** panel:
+3. ```Click``` on **Aggregate attributes**.
+4. ```Select``` *Customer ID* in the left box and set **function** to *count* in the right box.
+5. Stay in this dialog and add another entry *Product Name* with *function** set to *mode*. Click **Apply**.
+6. ```Click``` on **group by attributes**. Then, select the *Product ID* by moving it to the right. Click **Apply**. 
+
+### Explanation
+
+**Aggregate** performs a "group-by-function" that you may know from databases. Next to joins and filters, the aggregate function is one of the most important operators for data blending. In this case, it groups the data by product, counts the number of purchaes for each product, and uses the product name for describing this product. The result is a table of all products with the following attributes: product ID, product name, and the number of customers that have purchased the product.
+
+## 5/6 - Execute the process.
+
+### Activity
+
+1. ```Connect``` **Aggregate** to the result port on the right.
+2. ```Press``` > **Run** to execute the process.
+
+### Explanation
+
+In the **Results** view, click on column headers to sort the column data to ascending or descending order.
 
 
 
