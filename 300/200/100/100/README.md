@@ -415,6 +415,19 @@ The *role* of an attribute describes how the column is used by machine learning 
 
 "Binning" is a common technique to transform the type from *numerical* to *polynominal* (a nomal with more than 2 values). Here, we create three "bins" covering the complete range of values. The operator then replaces the original numerical value with the name of the bin the value belongs to. This technique is often useful to categorise data into simpler to assess groups. Like 'everything bigger x = interesting and everything smaller x = not interesting'. Such groups can then be used in calculation, charts or even serve as a label for model training.
 
+## 4/5 - Define which column to predict.
+
+### Explanation
+
+In RapidMiner, we call the column which should be predicted *label*. It is sometimes also known as *target* or *class*.
+
+### Activity
+
+1. ```Add``` the **Set Role** operator and connect it.
+2. In **Parameters**, for **attribute name** *Survived*, change **target role** to *label*.
+3. ```>``` **Run** the process and inspect the results.
+
+
 
 
 More ...
