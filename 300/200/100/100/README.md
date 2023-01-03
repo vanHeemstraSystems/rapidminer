@@ -138,4 +138,21 @@ We will now go through the most important steps of building analytical processes
 
 The **Repository** panel, in the upper left corner by default, is the place to store all your data, processes, and results. You should always import data into the repository, especially when it comes from files like XLS or CSV. This will simplify the design of analytical processes a lot since RapidMiner's repository stores describing meta data together with the data.
 
+## 3/6 - Add data to the process.
+
+### Activity
+
+1. ```Click``` the **Design** tab to return to the **Process** panel.
+2. ```Drag``` the imported **Titanic** data from the **Repository** panel into the **Process** panel.
+
+### Explanation
+
+When you drag data from the repository into the process, it transforms into a data-loading operator (in this case, **Retrieve Titanic**). Data is not actually loaded (or delivered at the round output ports of each operator) until you run the process.
+
+
+
+
+
+
+
 More ...
