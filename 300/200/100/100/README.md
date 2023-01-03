@@ -160,7 +160,15 @@ When you drag data from the repository into the process, it transforms into a da
 
 Only data which is delivered to one of the result ports on the right can be seen after the execution of the process. If your process does not have at least one connection to a result port, you won't see any results when you execute it!
 
+## 5/6 - Execute the process.
 
+### Activity
+
+1. ```Press`` > **Run** (top left) to execute the process.
+
+### Explanation
+
+Onze run, you automatically switch to the **Results** view where your results are displayed. Remember? Those are operator outputs you connected with one of the result ports on the right side of the **Process** panel. At any time, click the **Design** tab to return to the **Process** panel.
 
 
 
