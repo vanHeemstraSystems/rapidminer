@@ -235,7 +235,13 @@ Whenever you add an operator to your process, you should immediately connect it.
 
 Most operators have settings which define how the operators are working. You can find those on the right side of the **Parameters** panel, after you have selected an operator with a click.
 
+## 5/5 - Congratulations!
 
+Well done! You can now see the highest fare paid for a woman on the Titanic: it's the first value in the column *Passenger Fare*. (here: 512.329).
+
+## Challenge
+
+- Q: Can you change the process to see the highest fare paid by a man? Is it different than the highest fare paid by a woman? A: No, both a man and a woman paid the highest fare of 512.329.
 
 
 
